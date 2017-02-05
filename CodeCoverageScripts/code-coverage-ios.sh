@@ -1,12 +1,6 @@
 #!/bin/bash
 #=========================================================================================
-## DESCRIPTION: Script to validate Current build code coverage numbers with previous build
-## Copyright (C) 2015 Intuit - All Rights Reserved
-## AUTHOR: Yogesh Khandelwal
-## Last revised 10/06/2015
-##
-## USAGE: code-coverage-check.sh Arg1
-##              Arg1 -- Jenkins Job type (Trunk, iOS, Android, JS)
+
 #=========================================================================================
 #Sleep and wait for jenkins cobertura plugin to generate merged coverage report.
 sleep 10
